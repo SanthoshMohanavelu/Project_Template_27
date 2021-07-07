@@ -82,8 +82,8 @@ function draw() {
     showArrows(i, computerArrows);
   }
   //call player.life and computerplayer.life
-  player.life()
-  computerPlayer.Life()
+  player.life();
+  computer.Life();
 
   computerBase.display();
   computer.display();

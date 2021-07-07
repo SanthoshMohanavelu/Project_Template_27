@@ -34,15 +34,15 @@ class Computer {
     push();
     textSize(20);
     fill("white");
-    text("Computer", 100, 50)
+    text("Computer", 1350, 50)
   
     fill(this.life1);
-    rect(180, 50, 70, 30);
+    rect(1240, 60, 70, 30);
     fill(this.life2);
-    rect(250, 50, 70, 30);
+    rect(1310, 60, 70, 30);
     fill(this.life3);
-    rect(320, 50, 70, 30)
-
+    rect(1380, 60, 70, 30)
+    pop();
 
   }
 }

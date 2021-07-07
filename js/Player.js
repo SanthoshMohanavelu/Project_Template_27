@@ -42,7 +42,7 @@ class Player {
     rect(250, 50, 70, 30);
     fill(this.life3);
     rect(320, 50, 70, 30)
-
+    pop();
 
 
 
