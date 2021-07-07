@@ -6,15 +6,17 @@ const Constraint = Matter.Constraint;
 var engine, world;
 var canvas;
 var palyer, playerBase, playerArcher;
-var computer, computerBase, computerArcher;
+var computer, computerBase;
 var playerArrows = [];
 var computerArrows = [];
 //
 //Declare the varibales to add 3 life for player and computerplayer
+  var computerPlayer
+  var player
 
 function preload() {
   //Load Image of background
-
+backgroundImg = loadImage("assets/background.gif")
 
 }
 
@@ -79,8 +81,9 @@ function draw() {
   for (var i = 0; i < computerArrows.length; i++) {
     showArrows(i, computerArrows);
   }
-  //call Player.life and computerplayer.life
-
+  //call player.life and computerplayer.life
+  player.life()
+  computerPlayer.Life()
 
   computerBase.display();
   computer.display();
